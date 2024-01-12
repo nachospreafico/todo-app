@@ -30,7 +30,7 @@ const TaskItem = ({ text, id, completed }) => {
             : completed
             ? "text-[#D1D2DA] line-through"
             : "text-[#494C6B]"
-        }`}
+        } overflow-hidden overflow-ellipsis whitespace-normal break-words`}
       >
         {text}
       </p>
